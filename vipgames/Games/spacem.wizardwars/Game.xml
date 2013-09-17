@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game xmlns="http://m.vipgames.me/gameloadinstructions">
+  <head>
+    <raw>
+      <![CDATA[
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+      ]]>
+    </raw>
+  </head>
+  <body>
+    <raw>
+      <![CDATA[
+        <!--[if IE]>
+          <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+          <script>CFInstall.check()</script>
+        <![endif]-->
+      ]]>
+    </raw>
+    <scripts>
+      <ref src="script/launcher.js"/>
+    </scripts>
+  </body>
+</game>

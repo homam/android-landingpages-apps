@@ -1,0 +1,114 @@
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#vipgames_game_scene, #vipgames_game_scene > div {
+    height: 100%;
+}
+
+#stage {
+    min-height: 100%;
+    position: relative;
+    background-image: url(gradient.png);
+    -webkit-background-size: 100%;
+
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.has3D #stage {
+    -webkit-perspective: 500;
+    -webkit-backface-visibility: hidden;
+    /*-webkit-transform-style: preserve-3d;*/
+    /*-webkit-perspective-origin: 50% 50%;*/
+}
+
+#cube {
+    width: 240px;
+    height: 360px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.has3D #cube {
+    -webkit-transform-style: preserve-3d;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.side {
+    text-align: center;
+    color: red; /* ? */
+    width: 240px;
+    height: 60px;
+}
+
+.has3D .side {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+}
+
+.card {
+    float: left;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.25s ease-out, opacity 0.25s linear;
+    -webkit-background-size: 780px 60px;
+    background-image: url(sprites.png);
+    width: 60px; /* Need to update script if this changes */
+    height: 60px;
+}
+
+.has3D .card {
+    -webkit-backface-visibility: hidden;
+    -webkit-background-size: 1300px 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.found {
+    -webkit-animation: pulse;
+    -webkit-animation-duration: 0.25s;
+    -webkit-animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+.hud {
+    position: absolute;
+    margin: 5px;
+    font: bold 16pt courier;
+}
+
+#memoryActions {
+    left: 0;
+    bottom: 0;
+}
+
+#score {
+    right: 0;
+    bottom: 0;
+}

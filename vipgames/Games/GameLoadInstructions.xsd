@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://m.vipgames.me/gameloadinstructions"
+           targetNamespace="http://m.vipgames.me/gameloadinstructions"
+           >
+
+  <xs:complexType name="RawTextType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string"/>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  
+  <xs:complexType name="RefType">
+    <xs:attribute name="src" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="RefListType">
+    <xs:sequence>
+      <xs:element name="ref" type="tns:RefType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="HeadBodyType">
+    <xs:sequence>
+      <xs:element name="raw" type="tns:RawTextType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="scripts" type="tns:RefListType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="HeadType">
+    <xs:complexContent>
+      <xs:extension base="tns:HeadBodyType">
+        <xs:sequence>
+          <xs:element name="styles" type="tns:RefListType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="BodyType">
+    <xs:complexContent>
+      <xs:extension base="tns:HeadBodyType"/>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:element name="game">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="head" type="tns:HeadType" minOccurs="1" maxOccurs="1"></xs:element>
+        <xs:element name="body" type="tns:BodyType" minOccurs="1" maxOccurs="1"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

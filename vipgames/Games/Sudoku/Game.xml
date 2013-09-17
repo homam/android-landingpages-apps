@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game xmlns="http://m.vipgames.me/gameloadinstructions">
+  <head>
+    <raw>
+      <![CDATA[
+       <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width, height=device-height' />
+       <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+       <style type="text/css">
+        body {
+          background-color: black;
+          margin:0;
+        }
+       </style>
+      ]]>
+    </raw>
+  </head>
+  <body>
+    <raw>
+      <![CDATA[
+      <div style='width: 320px; height: 1px;'></div>
+      <div id='game'>
+        <canvas id='ca' width='320' height='480'></canvas>
+        <div id='ui' style='position: absolute; top: 433px; left: 0px; width: 320px; height: 48px;'></div>
+      </div>     
+      ]]>
+    </raw>
+    <scripts>
+      <ref src="core.js?v=1.03"/>
+    </scripts>
+  </body>
+</game>
