@@ -1,0 +1,177 @@
+.page-MAHome #navs a.featured-btn,
+.page-MAAllCourses #navs a.featured-btn,
+.page-MAHome #navs a.allcourses-btn,
+.page-MAAllCourses #navs a.allcourses-btn {
+  width: 50%;
+  display: inline-table;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 8px 0;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #3f4245;
+}
+.page-MAHome #navs a.featured-btn:hover,
+.page-MAAllCourses #navs a.featured-btn:hover,
+.page-MAHome #navs a.allcourses-btn:hover,
+.page-MAAllCourses #navs a.allcourses-btn:hover {
+  background-color: #181a1c;
+  text-decoration: underline;
+}
+.page-MAHome #navs a.featured-btn.selected,
+.page-MAAllCourses #navs a.featured-btn.selected,
+.page-MAHome #navs a.allcourses-btn.selected,
+.page-MAAllCourses #navs a.allcourses-btn.selected {
+  background-color: #181a1c;
+  text-decoration: none;
+  cursor: default;
+}
+.page-MAHome #navs a.featured-btn,
+.page-MAAllCourses #navs a.featured-btn {
+  float: left;
+}
+.page-MAHome #navs a.allcourses-btn,
+.page-MAAllCourses #navs a.allcourses-btn {
+  float: left;
+}
+.page-MAHome .playButton {
+  background-image: url(Shared/images/play.html);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+.page-MAHome #featured {
+  clear: both;
+  text-align: left;
+}
+.page-MAHome #featured a.big,
+.page-MAHome #featured a.small {
+  color: #fff;
+  position: relative;
+}
+.page-MAHome #featured a.big.course-viewtype-Future,
+.page-MAHome #featured a.small.course-viewtype-Future {
+  background-color: #808080;
+  border-bottom: 1px solid #808080;
+}
+.page-MAHome #featured img {
+  width: 59px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+.page-MAHome #featured .title {
+  width: auto;
+  display: block;
+}
+body.rtl .page-MAHome #featured .title {
+  direction: rtl;
+}
+.page-MAHome #footer {
+  background-color: #000;
+}
+.p240 .page-MAHome #featured a.big,
+.p240 .page-MAHome #featured a.small {
+  width: 100%;
+  display: block;
+  font-size: 0.9em;
+  height: 50px;
+}
+.p240 .page-MAHome #featured a.big:hover .title,
+.p240 .page-MAHome #featured a.small:hover .title {
+  text-decoration: underline;
+}
+.p240 .page-MAHome #featured a.big img,
+.p240 .page-MAHome #featured a.small img {
+  position: absolute;
+  top: 8px;
+  left: auto;
+  right: 10px;
+}
+.p240 .page-MAHome #featured a.big .title,
+.p240 .page-MAHome #featured a.small .title {
+  padding: 20px 10px;
+}
+.p320 .page-MAHome #featured .title {
+  font-size: 0.8em;
+  position: absolute;
+  top: 32%;
+  right: 70px;
+  left: 8px;
+  bottom: 0;
+  text-overflow: ellipsis;
+}
+.p320 .page-MAHome #featured a.big {
+  width: 100%;
+  height: 50px;
+  display: block;
+  clear: both;
+}
+.p320 .page-MAHome #featured a.big img {
+  position: absolute;
+  top: 8px;
+  left: auto;
+  right: 10px;
+}
+.p320 .page-MAHome #featured a.big:hover .title {
+  text-decoration: underline;
+}
+.p320 .page-MAHome #featured a.small {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  border: none;
+}
+.p320 .page-MAHome #featured a.small a.small + a.small {
+  float: right;
+}
+.p320 .page-MAHome #featured a.small img {
+  position: absolute;
+  top: 8px;
+  left: auto;
+  right: 10px;
+}
+.p320 .page-MAHome #featured a.small:hover .title {
+  text-decoration: underline;
+}
+.page-MAAllCourses #allcourses {
+  padding: 1px;
+  clear: both;
+}
+body.rtl .page-MAAllCourses #allcourses {
+  direction: rtl;
+}
+.page-MAAllCourses #allcourses ul.allCourses-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-MAAllCourses #allcourses ul.allCourses-list li a {
+  padding: 1px;
+  display: block;
+  color: #414346;
+}
+.page-MAAllCourses #allcourses ul.allCourses-list li a:hover .title {
+  text-decoration: underline;
+}
+.page-MAAllCourses #allcourses ul.allCourses-list li a .title {
+  font-size: 0.9em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-MAAllCourses #allcourses ul.allCourses-list li a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}

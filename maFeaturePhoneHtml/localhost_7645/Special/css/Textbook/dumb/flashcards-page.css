@@ -1,0 +1,229 @@
+﻿/* textbook/dumb/ flashcards-page  */
+body.rtl .viewType-Textbook.page-NewFlashCards,
+body.rtl .viewType-Textbook.page-CourseInfo {
+  direction: rtl;
+}
+.viewType-Textbook.page-NewFlashCards .content,
+.viewType-Textbook.page-CourseInfo .content {
+  margin: 5px;
+  display: block;
+  border: 1px solid #242628;
+  background-color: #efefef;
+}
+.viewType-Textbook.page-NewFlashCards .content .header,
+.viewType-Textbook.page-CourseInfo .content .header {
+  padding: 5px;
+  color: #fff;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #242628;
+}
+.viewType-Textbook.page-NewFlashCards .content img,
+.viewType-Textbook.page-CourseInfo .content img {
+  width: 100%;
+  display: block;
+  max-width: 300px;
+  margin: 5px auto;
+  outline: 1px solid #242628;
+}
+.viewType-Textbook.page-NewFlashCards .content p,
+.viewType-Textbook.page-CourseInfo .content p {
+  margin: 5px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.viewType-Textbook.page-NewFlashCards .content .title,
+.viewType-Textbook.page-CourseInfo .content .title {
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+}
+.viewType-Textbook.page-NewFlashCards .panel,
+.viewType-Textbook.page-CourseInfo .panel {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  background-color: #fff;
+}
+.viewType-Textbook.page-NewFlashCards .panel .text,
+.viewType-Textbook.page-CourseInfo .panel .text {
+  padding: 5px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.viewType-Textbook.page-NewFlashCards .panel .title,
+.viewType-Textbook.page-CourseInfo .panel .title {
+  padding: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Tip,
+.viewType-Textbook.page-CourseInfo .panel.Tip {
+  border: 1px solid #0099ff;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Tip .title,
+.viewType-Textbook.page-CourseInfo .panel.Tip .title {
+  color: #0099ff;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Tool,
+.viewType-Textbook.page-CourseInfo .panel.Tool {
+  border: 1px solid #565656;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Tool .title,
+.viewType-Textbook.page-CourseInfo .panel.Tool .title {
+  color: #565656;
+}
+.viewType-Textbook.page-NewFlashCards .panel.QuestionInText,
+.viewType-Textbook.page-CourseInfo .panel.QuestionInText {
+  border: 1px solid #eb8e08;
+}
+.viewType-Textbook.page-NewFlashCards .panel.QuestionInText .title,
+.viewType-Textbook.page-CourseInfo .panel.QuestionInText .title {
+  color: #eb8e08;
+}
+.viewType-Textbook.page-NewFlashCards .panel.DidYouKnow,
+.viewType-Textbook.page-CourseInfo .panel.DidYouKnow {
+  border: 1px solid #2a7a02;
+}
+.viewType-Textbook.page-NewFlashCards .panel.DidYouKnow .title,
+.viewType-Textbook.page-CourseInfo .panel.DidYouKnow .title {
+  color: #2a7a02;
+}
+.viewType-Textbook.page-NewFlashCards .panel.ToDo,
+.viewType-Textbook.page-CourseInfo .panel.ToDo {
+  border: 1px solid #009900;
+}
+.viewType-Textbook.page-NewFlashCards .panel.ToDo .title,
+.viewType-Textbook.page-CourseInfo .panel.ToDo .title {
+  color: #009900;
+}
+.viewType-Textbook.page-NewFlashCards .panel.NotToDo,
+.viewType-Textbook.page-CourseInfo .panel.NotToDo {
+  border: 1px solid #ff3366;
+}
+.viewType-Textbook.page-NewFlashCards .panel.NotToDo .title,
+.viewType-Textbook.page-CourseInfo .panel.NotToDo .title {
+  color: #ff3366;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Info,
+.viewType-Textbook.page-CourseInfo .panel.Info {
+  border: 1px solid #cc3434;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Info .title,
+.viewType-Textbook.page-CourseInfo .panel.Info .title {
+  color: #cc3434;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Caution,
+.viewType-Textbook.page-CourseInfo .panel.Caution {
+  border: 1px solid #c90509;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Caution .title,
+.viewType-Textbook.page-CourseInfo .panel.Caution .title {
+  color: #c90509;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Example,
+.viewType-Textbook.page-CourseInfo .panel.Example {
+  border: 1px solid #0f5cc4;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Example .title,
+.viewType-Textbook.page-CourseInfo .panel.Example .title {
+  color: #0f5cc4;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Summary,
+.viewType-Textbook.page-CourseInfo .panel.Summary {
+  border: 1px solid #3399cc;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Summary .title,
+.viewType-Textbook.page-CourseInfo .panel.Summary .title {
+  color: #3399cc;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Quote,
+.viewType-Textbook.page-CourseInfo .panel.Quote {
+  font-style: italic;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  color: #3c3c3c;
+  padding: 10px 15px;
+  background-color: transparent;
+  border-top: 1px solid #565656;
+  border-bottom: 1px solid #565656;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Quote .text,
+.viewType-Textbook.page-CourseInfo .panel.Quote .text {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Quote .quote-date,
+.viewType-Textbook.page-CourseInfo .panel.Quote .quote-date {
+  font-style: normal;
+  font-weight: bold;
+}
+.viewType-Textbook.page-NewFlashCards .panel.Quote .quote-by,
+.viewType-Textbook.page-CourseInfo .panel.Quote .quote-by {
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+}
+.viewType-Textbook.page-NewFlashCards .list,
+.viewType-Textbook.page-CourseInfo .list {
+  margin: 5px;
+}
+.viewType-Textbook.page-NewFlashCards .list ul,
+.viewType-Textbook.page-CourseInfo .list ul {
+  margin: 0;
+  padding: 0;
+}
+.viewType-Textbook.page-NewFlashCards .list ul li,
+.viewType-Textbook.page-CourseInfo .list ul li {
+  list-style-type: square;
+  padding: 0px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin: 10px 0 10px 20px;
+}
+body.rtl .viewType-Textbook.page-NewFlashCards .list ul li,
+body.rtl .viewType-Textbook.page-CourseInfo .list ul li {
+  margin: 10px 20px 10px 10px;
+}
+.viewType-Textbook.page-NewFlashCards .list ul li .text,
+.viewType-Textbook.page-CourseInfo .list ul li .text {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.viewType-Textbook.page-NewFlashCards .list ul li .title,
+.viewType-Textbook.page-CourseInfo .list ul li .title {
+  display: none;
+}
+.viewType-Textbook.page-NewFlashCards .ordered ol,
+.viewType-Textbook.page-CourseInfo .ordered ol {
+  margin: 0;
+  padding: 0 20px 0 0;
+}
+.viewType-Textbook.page-NewFlashCards .ordered ol li,
+.viewType-Textbook.page-CourseInfo .ordered ol li {
+  list-style-type: decimal;
+  padding: 0px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin: 0 0 0 20px;
+}
+.viewType-Textbook.page-NewFlashCards .ordered ol li body.rtl,
+.viewType-Textbook.page-CourseInfo .ordered ol li body.rtl {
+  margin: 0 20px  0 0;
+}
+.viewType-Textbook.page-NewFlashCards .ordered ol li .text,
+.viewType-Textbook.page-CourseInfo .ordered ol li .text {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.viewType-Textbook.page-NewFlashCards .ordered ol li .title,
+.viewType-Textbook.page-CourseInfo .ordered ol li .title {
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+}

@@ -1,0 +1,33 @@
+﻿#footer {
+  width: 100%;
+  clear: both;
+  height: 40px;
+  text-align: center;
+  display: inline-table;
+}
+body.rtl #footer {
+  direction: rtl;
+}
+#footer a,
+#footer .bar {
+  padding: 15px 10px;
+  font-size: 0.7em;
+  color: #8b8b8b;
+  display: inline-block;
+}
+#footer a:hover,
+#footer .bar:hover {
+  text-decoration: underline;
+}
+#footer .bar {
+  padding: 15px 5px;
+}
+#footer .left {
+  float: left;
+}
+#footer .right {
+  float: right;
+}
+#footer .center {
+  float: none;
+}

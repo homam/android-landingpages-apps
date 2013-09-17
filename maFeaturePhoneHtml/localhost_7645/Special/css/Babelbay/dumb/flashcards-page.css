@@ -1,0 +1,38 @@
+﻿/* babelbay/dumb/flashcards-page */
+.viewType-Babelbay.page-NewFlashCards .content {
+  margin: 5px;
+  display: block;
+  border: 1px solid #242628;
+  background-color: #efefef;
+}
+.viewType-Babelbay.page-NewFlashCards .content .target {
+  padding: 10px  5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+}
+.viewType-Babelbay.page-NewFlashCards .content img {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+.viewType-Babelbay.page-NewFlashCards .content .native {
+  padding: 10px 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid #242628;
+}
+.viewType-Babelbay.page-NewFlashCards .content .audio-icon {
+  display: block;
+  background-color: #828387;
+  padding: 2px;
+  border-top: 1px solid #242628;
+  border-bottom: 1px solid #242628;
+}
+.viewType-Babelbay.page-NewFlashCards .content .audio-icon img {
+  width: 25px;
+  height: 25px;
+}

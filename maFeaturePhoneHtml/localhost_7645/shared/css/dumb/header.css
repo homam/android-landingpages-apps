@@ -1,0 +1,76 @@
+﻿#header {
+  color: #626261;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: #e1e5ea;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #b0b7c0;
+  position: relative;
+}
+#header a {
+  color: #626261;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+#header a:hover .title {
+  text-decoration: underline;
+}
+#header a.current {
+  color: #0682d5;
+}
+#header a.current .title {
+  text-decoration: underline;
+}
+#header .icons {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  display: inline-block;
+}
+#header .icons.cap {
+  background: url(../../dumb-images/header/header-icons.gif);
+  background-position: 0 0;
+}
+#header .icons.book {
+  background: url(../../dumb-images/header/header-icons.gif);
+  background-position: -24px 0;
+}
+#header .title {
+  margin: 0 5px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+#navigation {
+  display: block;
+  clear: both;
+}
+#navigation a.featured-btn,
+#navigation a.allcourses-btn {
+  width: 50%;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 8px 0;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #3f4245;
+}
+#navigation a.featured-btn:hover,
+#navigation a.allcourses-btn:hover {
+  background-color: #181a1c;
+  text-decoration: underline;
+}
+#navigation a.featured-btn.selected,
+#navigation a.allcourses-btn.selected {
+  background-color: #181a1c;
+  text-decoration: none;
+  cursor: default;
+}
+#navigation a.featured-btn {
+  float: left;
+}
+#navigation a.allcourses-btn {
+  float: left;
+}

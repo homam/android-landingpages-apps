@@ -1,0 +1,133 @@
+﻿body.rtl .page-MASettings {
+  direction: rtl;
+}
+.page-MASettings #about a {
+  padding: 10px;
+  color: #fff;
+  display: block;
+  font-size: 0.8em;
+  margin: 5px 10px;
+  border: 1px solid #021927;
+  background-color: #006ed5;
+}
+.page-MASettings #about a:hover {
+  text-decoration: underline;
+}
+.page-MASettings #faq,
+.page-MASettings #terms {
+  margin: 10px;
+}
+.page-MASettings #faq h1,
+.page-MASettings #terms h1 {
+  margin: 10px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.page-MASettings #faq blockquote,
+.page-MASettings #terms blockquote,
+.page-MASettings #faq p,
+.page-MASettings #terms p {
+  margin: 5px 0;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.page-MASettings #language {
+  margin: 10px;
+}
+.page-MASettings #language h1 {
+  margin: 10px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+.page-MASettings #language form .language-btn {
+  position: relative;
+}
+.page-MASettings #language form .language-btn input[type="radio"]:checked + label {
+  border: 1px solid #bec3ca;
+  background-color: #e1e5ea;
+}
+.page-MASettings #language form .language-btn input[type="radio"] {
+  position: absolute;
+  z-index: 2;
+  margin: 14px 0 0 10px;
+}
+.page-MASettings #language form .language-btn label {
+  padding: 10px;
+  display: block;
+  margin: 5px 0;
+  border: 1px solid #858c95;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+.page-MASettings #language form .language-btn label img,
+.page-MASettings #language form .language-btn label input,
+.page-MASettings #language form .language-btn label .title {
+  vertical-align: middle;
+}
+.page-MASettings #language form .language-btn label img {
+  margin: 0 5px 0 20px;
+}
+.page-MASettings #language form .save_btn {
+  width: 100%;
+  display: block;
+  padding: 12px 10px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color: #006ed5;
+  border: 1px solid #021927;
+}
+.page-MASettings #contact {
+  margin: 10px;
+}
+.page-MASettings #contact h1 {
+  margin: 10px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+.page-MASettings #contact form {
+  width: auto;
+}
+.page-MASettings #contact form label {
+  color: #626261;
+  margin: 5px 0;
+  display: block;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+.page-MASettings #contact form input,
+.page-MASettings #contact form textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.page-MASettings #contact form .submit_btn {
+  width: 100%;
+  display: block;
+  padding: 12px 10px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color: #006ed5;
+  border: 1px solid #021927;
+}
+.page-MASettings .notifications {
+  color: #fff;
+  padding: 5px;
+  font-size: 0.8em;
+  display: block;
+  text-align: center;
+}
+.page-MASettings .notifications.success {
+  background-color: #52d31c;
+}
+.page-MASettings .notifications.failed {
+  background-color: #f00;
+}

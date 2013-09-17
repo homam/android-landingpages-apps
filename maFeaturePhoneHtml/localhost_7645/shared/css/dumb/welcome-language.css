@@ -1,0 +1,67 @@
+﻿body.rtl .welcome-language {
+  direction: rtl;
+}
+.welcome-language .languageText {
+  margin: 10px 0;
+  display: block;
+  text-align: center;
+}
+.welcome-language .languageText .bigText,
+.welcome-language .languageText .smallText {
+  display: block;
+}
+.welcome-language .languageText .bigText {
+  color: #0a7dde;
+  font-size: 28px;
+  font-family: AvenirNext-DemiBold, Arial, sans-serif;
+}
+.welcome-language .languageText .smallText {
+  color: #041321;
+  font-size: 14px;
+  font-family: Avenir, Arial, sans-serif;
+}
+.welcome-language .languageButtons {
+  margin: 0 10px;
+  display: block;
+}
+.welcome-language .languageButtons a {
+  padding: 5px;
+  color: #fff;
+  margin: 5px 0;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Avenir, Arial, sans-serif;
+}
+.welcome-language .languageButtons a img {
+  width: 30px;
+  height: 20px;
+  margin-left: 0px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+body.rtl .welcome-language .languageButtons a img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.welcome-language .languageButtons a.green {
+  background-color: #00a50c;
+  border: 1px solid #007d0a;
+}
+.welcome-language .languageButtons a.blue {
+  background-color: #0078d8;
+  border: 1px solid #024f9d;
+}
+.welcome-language .languageButtons a.red {
+  background-color: #c80d0c;
+  border: 1px solid #8c0307;
+}
+.welcome-language .languageButtons a.yellow {
+  background-color: #f09700;
+  border: 1px solid #9f4700;
+}
+.welcome-language .languageButtons a.purple {
+  background-color: #4c1ec6;
+  border: 1px solid #2b0593;
+}

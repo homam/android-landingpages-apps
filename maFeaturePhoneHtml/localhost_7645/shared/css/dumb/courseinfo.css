@@ -1,0 +1,68 @@
+﻿body.rtl .page-CourseInfo {
+  direction: rtl;
+}
+.page-CourseInfo #courseinfo {
+  margin: 5px;
+}
+.page-CourseInfo #courseinfo .header-wrap {
+  position: relative;
+  clear: both;
+  width: 100%;
+  display: block;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.page-CourseInfo #courseinfo .header-wrap .title {
+  z-index: 2;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  right: auto;
+  width: 100%;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 0.9em;
+}
+body.rtl .page-CourseInfo #courseinfo .header-wrap .title {
+  left: auto;
+  text-align: left;
+}
+.page-CourseInfo #courseinfo .header-wrap img {
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.page-CourseInfo #courseinfo a.startcourse_btn {
+  color: #fff;
+  width: 100%;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #006ed5;
+  padding: 12px 0;
+  border: 1px solid #009ae7;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.page-CourseInfo #courseinfo a.startcourse_btn:hover {
+  text-decoration: underline;
+}
+.page-CourseInfo #courseinfo p {
+  margin: 5px 0;
+  color: #676767;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}

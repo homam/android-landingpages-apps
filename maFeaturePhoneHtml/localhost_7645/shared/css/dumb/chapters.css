@@ -1,0 +1,144 @@
+﻿body.rtl .page-Chapters {
+  direction: rtl;
+}
+.page-Chapters #chapters h1 {
+  padding: 5px;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 3px;
+  text-align: center;
+  background-color: #3f4245;
+  border-top: 1px solid #131516;
+  border-bottom: 1px solid #131516;
+}
+.page-Chapters #chapters ul.course-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-Chapters #chapters ul.course-list li a {
+  height: 50px;
+  display: block;
+  position: relative;
+  margin: 2px 5px 3px 5px;
+  background-color: #e1e5ea;
+  border: 1px solid #bdc2ca;
+}
+.page-Chapters #chapters ul.course-list li a:hover .title {
+  text-decoration: underline;
+}
+.page-Chapters #chapters ul.course-list li a img {
+  position: absolute;
+  top: 0;
+  width: 45px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: #ccc;
+}
+body.rtl .page-Chapters #chapters ul.course-list li a img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.page-Chapters #chapters ul.course-list li a .wrap {
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body.rtl .page-Chapters #chapters ul.course-list li a .wrap {
+  padding-left: 0px;
+  padding-right: 55px;
+}
+.page-Chapters #chapters ul.course-list li a .wrap .title {
+  font-size: 0.9em;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+.page-Chapters #chapters ul.course-list li a .wrap .level {
+  display: none;
+  font-size: 0.9em;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+.page-Chapters #chapters ul.course-list li a .arrow {
+  position: absolute;
+  top: 10px;
+  left: auto;
+  right: 10px;
+  font-size: 26px;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+body.rtl .page-Chapters #chapters ul.course-list li a .arrow {
+  right: auto;
+  left: 10px;
+}
+.page-Chapters .language-selection-reset {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  margin: 0;
+  padding: 0;
+}
+body.rtl .page-Chapters .language-selection-reset {
+  right: auto;
+  left: 0;
+}
+.page-Chapters .language-selection-reset button {
+  margin: 0;
+  border: 0px solid #009ae7;
+  height: 24px;
+  background: transparent;
+  text-decoration: underline;
+}
+.page-Chapters .language-selection {
+  width: auto;
+  margin: 0 5px;
+  display: block;
+}
+.page-Chapters .language-selection .language-select-btn {
+  display: block;
+  padding: 8px 0;
+  margin: 2px 0;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+}
+.page-Chapters .language-selection .radio-btn {
+  float: left;
+  margin: 5px 5px 0 5px;
+}
+.page-Chapters .language-selection .choices {
+  display: block;
+  color: #3f3f3f;
+  margin: 2px 0;
+  font-family: AvenirNext-Bold, Arial, sans-serif;
+}
+.page-Chapters .language-selection .choices:hover {
+  text-decoration: underline;
+}
+.page-Chapters .language-selection h2 {
+  margin: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #3f3f3f;
+  font-size: 14px;
+  font-family: AvenirNext-Bold, Arial, sans-serif;
+}
+.page-Chapters .language-selection .ok_btn {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #006ed5;
+  border: 1px solid #009ae7;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}

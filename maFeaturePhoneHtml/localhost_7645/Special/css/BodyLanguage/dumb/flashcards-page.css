@@ -1,0 +1,42 @@
+﻿/* bodylanguage/dumb/flashcards-page */
+/* bodylanguage/dumb/_theme */
+body.rtl .viewType-BodyLanguage.page-NewFlashCards {
+  direction: rtl;
+}
+.viewType-BodyLanguage.page-NewFlashCards .content {
+  margin: 5px;
+  display: block;
+  border: 1px solid #242628;
+  background-color: #efefef;
+}
+.viewType-BodyLanguage.page-NewFlashCards .content .pose {
+  padding: 5px;
+  color: #fff;
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #242628;
+  background-color: #50585b;
+}
+.viewType-BodyLanguage.page-NewFlashCards .content .image {
+  border-bottom: 1px solid #242628;
+}
+.viewType-BodyLanguage.page-NewFlashCards .content .image img {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  margin: 10px auto 0 auto;
+  border: none;
+}
+.viewType-BodyLanguage.page-NewFlashCards .content .meaning {
+  color: #136dca;
+  padding: 5px 5px 0px 5px;
+  font-size: 0.9em;
+  text-align: center;
+}
+.viewType-BodyLanguage.page-NewFlashCards .content .description {
+  margin: 5px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}

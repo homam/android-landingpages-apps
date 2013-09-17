@@ -1,0 +1,20 @@
+﻿body {
+  font-size: 100%;
+  color: #333333;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+#wrap {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  border-top: 1px solid #b0b7c0;
+}
+.clearfix {
+  clear: both;
+  display: block;
+  line-height: 0px;
+  height: 0px;
+}
